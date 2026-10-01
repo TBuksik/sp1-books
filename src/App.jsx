@@ -48,8 +48,15 @@ function App() {
           Autor książki
         </label>
 
-        
+        <input
+          type="text"
+          id="autorKsiazki"
+          className="form-control"
+          value={autor}
+          onChange={(event) => setAutor(event.target.value)}
+        />
       </div>
+
     </form>
   )
 }
