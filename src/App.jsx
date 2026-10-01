@@ -6,6 +6,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import './App.css'
 
 function App() {
+  const [tytul, setTytul] = useState("");
+  const [autor, setAutor] = useState("");
+  const [gatunek, setGatunek] = useState("");
+  
   return (
     <form>
       <div className="mb-3">
