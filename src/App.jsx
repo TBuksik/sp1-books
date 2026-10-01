@@ -9,7 +9,15 @@ function App() {
   const [tytul, setTytul] = useState("");
   const [autor, setAutor] = useState("");
   const [gatunek, setGatunek] = useState("");
-  
+
+  const nazwyGatunkow = {
+    "": "",
+    "1": "Powieść",
+    "2": "Kryminał",
+    "3": "Fantastyka",
+    "4": "Biografia",
+  };
+
   return (
     <form>
       <div className="mb-3">
