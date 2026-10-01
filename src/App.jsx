@@ -27,12 +27,19 @@ function App() {
   }
 
   return (
-    <form>
+    <form onSubmit={dodajKsiazke}>
       <div className="mb-3">
         <label htmlFor="tytulKsiazki" className="form-label">
           Tytuł książki
         </label>
 
+        <input
+          type="text"
+          id="tytulKsiazki"
+          className="form-control"
+          value={tytul}
+          onChange={(event) => setTytul(event.target.value)}
+        />
         
       </div>
 
