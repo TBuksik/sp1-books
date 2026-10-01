@@ -76,6 +76,11 @@ function App() {
         </select>
       </div>
 
+      <button type="submit" className="btn btn-primary">
+        Dodaj
+      </button>
+
+      button
 
     </form>
   )
