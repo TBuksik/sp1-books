@@ -80,8 +80,6 @@ function App() {
         Dodaj
       </button>
 
-      button
-
     </form>
   )
 }
