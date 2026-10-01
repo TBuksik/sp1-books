@@ -18,6 +18,14 @@ function App() {
     "4": "Biografia",
   };
 
+  function dodajKsiazke(event) {
+    event.preventDefault();
+
+    console.log(
+      `tytul: ${tytul}; autor: ${autor}; gatunek: ${nazwyGatunkow[gatunek]}`
+    );
+  }
+
   return (
     <form>
       <div className="mb-3">
