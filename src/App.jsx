@@ -15,6 +15,14 @@ function App() {
 
         
       </div>
+
+      <div className="mb-3">
+        <label htmlFor="autorKsiazki" className="form-label">
+          Autor książki
+        </label>
+
+        
+      </div>
     </form>
   )
 }
