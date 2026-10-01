@@ -57,6 +57,26 @@ function App() {
         />
       </div>
 
+      <div className="mb-3">
+        <label htmlFor="gatunekKsiazki" className="form-label">
+          Gatunek
+        </label>
+
+        <select
+          id="gatunekKsiazki"
+          className="form-select"
+          value={gatunek}
+          onChange={(event) => setGatunek(event.target.value)}
+        >
+          <option value="">Wybierz gatunek</option>
+          <option value="1">Powieść</option>
+          <option value="2">Kryminał</option>
+          <option value="3">Fantastyka</option>
+          <option value="4">Biografia</option>
+        </select>
+      </div>
+
+
     </form>
   )
 }
